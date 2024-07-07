@@ -1,0 +1,11 @@
+version: "3.8"
+
+services:
+  builder:
+    build:
+      context: ./docker
+      dockerfile: "./Dockerfile"
+    volumes:
+      - ./src:/src:cached
+    network_mode: host # Used so WiiLoad can actually connect to your Wii U
+    env_file: ".env"
