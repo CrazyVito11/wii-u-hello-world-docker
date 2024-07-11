@@ -40,7 +40,7 @@ You can start it using `docker compose up -d`, it should automatically build the
 ### Create `Intellisense-src` directory (Recommended)
 While this step is optional, it is highly recommended to make the development experience a lot easier.
 
-> [!NOTICE]
+> [!NOTE]
 > In this example we will be using VS Code, but this likely will also work for other IDE's.
 
 First, install the "C/C++" extension from Microsoft.
